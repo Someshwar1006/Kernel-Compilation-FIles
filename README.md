@@ -12,7 +12,8 @@ sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev
 </code></pre>
 
 <h2>Extract the Kernel Source</h2>
-<pre><code>tar -xvf linux-6.6.32.tar.gz
+<pre><code>wget https://cdn.kernel.org/pub/linux/kernel/projects/rt/6.6/patch-6.6.32-rt32.patch.gz
+tar -xvf linux-6.6.32.tar.gz
 cd linux-6.6.32
 </code></pre>
 
