@@ -25,7 +25,7 @@ cd linux-6.6.32
 <pre><code>sudo make localmodconfig
 make menuconfig
 </code></pre>
-<h2>Change Preemption Model<h2>
+</h2>Change Preemption Model</h2>
 </code></pre>Navigate to General setup.
 Scroll down to Preemption Model and change it to Fully Preemptible Kernel (RT).
 </code></pre>
